@@ -216,6 +216,7 @@ YAAMP_ALGO g_algos[] =
 	{"whirlpool", whirlpool_hash, 1, 0 }, /* sha256d merkleroot */
 	{"whirlpoolx", whirlpoolx_hash, 1, 0, 0},
 	{"zr5", zr5_hash, 1, 0, 0},
+        {"gr", gr_hash, 0x10000, 0, 0},
 	{"", NULL, 0, 0},
 };
 
